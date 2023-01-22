@@ -1,0 +1,13 @@
+name: CI
+
+on: push
+ branches: [master]
+
+
+jobs:
+  buid::
+    run-on: ubuntu-latest
+    steps:
+    
+    - name: echo
+      run: echo Hellow, world!
